@@ -1,14 +1,14 @@
 {
    "name": "gifted-mdV2",
    "version": "2.0.0",
-   "description": "Multi device whatsapp bot by GiftedTech.",
+   "description": "Multi device NodeJs Whatsapp Bot by GiftedTech.",
    "main": "lib/smd.js",
    "type": "commonjs",  
    "scripts": {
             "run": "pm2 start lib/smd.js --deep-monitoring --attach --name gifted || node lib/smd.js",
             "start": "pm2 start lib/smd.js --attach --name gifted || node lib/smd.js",
             "stop": "pm2 stop gifted",
-            "heroku-postbuild": "git clone https://github.com/Giftedmaurice/gifted-mdV2.git temp1 && mv temp1/.git .git && rm -rf temp1"
+            "heroku-postbuild": "git clone https://github.com/giftedtechnexus/Gifted-Md.git temp1 && mv temp1/.git .git && rm -rf temp1"
    },
    "author": "GiftedTech",
    "license" :"Apache-2.0",
