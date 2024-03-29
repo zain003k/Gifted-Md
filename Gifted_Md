@@ -10,9 +10,9 @@
 
  
 
-FROM quay.io/giftedmaurice/gifted-mdv2
-RUN git clone https://github.com/Giftedmaurice/gifted-mdV2 /root/Gifted
-WORKDIR /root/Gifted
+FROM quay.io/giftedtechnexus/gifted-md
+RUN git clone https://github.com/giftedtechnexus/Gifted-Md /root/GiftedMd
+WORKDIR /root/GiftedMd
 RUN npm install
 EXPOSE 8000
 CMD ["npm","start" ] 
