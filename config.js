@@ -19,10 +19,10 @@ global.DATABASE_URI = process.env.DATABASE_URL || ""
 global.timezone= process.env.TZ || process.env.TIME_ZONE || "Africa/Nairobi";
 global.github=process.env.GITHUB|| "https://github.com/Giftedmaurice/gifted-mdV2";
 global.gurl  =process.env.GURL  || 
-"https://whatsapp.com/channel/0029VaJmfmTDJ6H7CmuBss0o"
+"https://whatsapp.com/channel/0029Va8ymxS0QeabB7oATM3r"
 ;
 global.website=process.env.GURL || 
-"https://whatsapp.com/channel/0029VaJmfmTDJ6H7CmuBss0o" 
+"https://whatsapp.com/channel/0029Va8ymxS0QeabB7oATM3r" 
 ; 
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || 
 "https://telegra.ph/file/54efddccf41281ad7ec51.jpg" 
@@ -77,11 +77,11 @@ module.exports = {
   HANDLERS: process.env.PREFIX  || ".",
   BRANCH  : process.env.BRANCH  || "main",
   VERSION : process.env.VERSION || "2.0.0",
-  caption : process.env.CAPTION || "©²⁰²⁴ ɢɪғᴛᴇᴅ ʙᴏᴛ ᴍᴅᵛ²•⁰•⁰" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ ɢɪғᴛᴇᴅ ʙᴏᴛ ᴍᴅᵛ²•⁰•⁰ - ²⁰²⁴ 』```", //*『sᴜʙsᴄʀɪʙᴇ • ɢɪғᴛᴇᴅ ᴛᴇᴄʜ』*\n youtube.com/@giftedtechnexus"),
+  caption : process.env.CAPTION || "©𝐙𝐀𝐈𝐍✯𝐃𝐀𝐑𝐊🖤𝐇𝐄𝐀𝐑𝐓✯𝘽𝙊𝙏" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ ɢɪғᴛᴇᴅ ʙᴏᴛ ᴍᴅᵛ²•⁰•⁰ - ²⁰²⁴ 』```", //*『sᴜʙsᴄʀɪʙᴇ • ɢɪғᴛᴇᴅ ᴛᴇᴄʜ』*\n youtube.com/@giftedtechnexus"),
  
-  author : process.env.PACK_AUTHER|| "Gifted-MD",
-  packname: process.env.PACK_NAME || "♥️",
-  botname : process.env.BOT_NAME  || "ɢɪғᴛᴇᴅ-ᴍᴅ",
+  author : process.env.PACK_AUTHER|| "𝐙𝐀𝐈𝐍✯𝐃𝐀𝐑𝐊🖤𝐇𝐄𝐀𝐑𝐓✯𝘽𝙊𝙏",
+  packname: process.env.PACK_NAME || "𝐙𝐀𝐈𝐍✯𝐃𝐀𝐑𝐊🖤𝐇𝐄𝐀𝐑𝐓✯𝘽𝙊𝙏",
+  botname : process.env.BOT_NAME  || "✯𝐃𝐀𝐑𝐊🖤𝐇𝐄𝐀𝐑𝐓✯𝘽𝙊𝙏",
   ownername:process.env.OWNER_NAME|| "It's Gifted",
 
 
